@@ -299,3 +299,45 @@ input[name="birth"], select {
   height: 20px;
   border-radius: 9px;
 }
+
+@media screen and (max-width: 960px) {
+  body{
+  padding-left: 7%;
+  border: 3px solid white;
+  padding-right: 7%;
+  margin-left: 6%;
+  margin-right: 6%;
+  text-align: left;
+  border-radius: 9px;
+  margin-top: 38%;
+  margin-bottom: 38%; 
+  background-image: linear-gradient(90deg, royalblue, Turquoise);  color: white;
+}
+.colo{
+  font :  3em "cursive", Garamond, 'Comic Sans MS';
+  font-size: 25px;
+}
+
+.col{
+  font : 1em "cursive", Garamond, 'Comic Sans MS';
+  font-size: 10px;
+}
+
+.wer{
+  font : 1em "cursive", Garamond, 'Comic Sans MS';
+  font-size: 10px;
+}
+
+div{
+  padding-bottom: 8px;
+  }
+
+
+input[type=text], select {
+  border-radius: 9px;
+}
+
+input[type=tel], select {
+  width: 40px;
+  border-radius: 5px;
+}
