@@ -211,10 +211,8 @@ textarea {
 .start {
   font :  3em "cursive", Garamond, 'Comic Sans MS';
   font-size: 55px;
-  border: 3px solid red;
-  background-color: red;
-  border-radius: 59px;
-  width: 100%;
+  background-color: #DD1919;
+  width: auto;
 }
 
 h1{
@@ -226,28 +224,25 @@ img:hover {
 
 
 .stat{
-padding-left: 18%;
+padding-left: 22%;
 margin-top: 5%;
 margin-bottom: 5%;
 }
 
 .star{
-padding-left: 18%;
+padding-left: 22%;
 margin-top: 5%;
 margin-bottom: 5%;
 
 }
 
 .sta{
-padding-left: 33%;
+padding-left: 48%;
 margin-bottom: 5%;
-
+margin-top: 5%;
 }
 
-.colo{
-  font :  3em "cursive", Garamond, 'Comic Sans MS';
-  font-size: 40px;
-}
+
 
 .col{
   font : 1em "cursive", Garamond, 'Comic Sans MS';
@@ -263,14 +258,18 @@ div{
   padding-bottom: 10px;
   }
 
-  body{
-  background-color: white;
-  padding-left: 7%;
-  padding-right: 7%;
-  margin-left: 2%;
-  margin-right: 2%;
-  margin-top: 1%;
-  margin-bottom: 1%; 
+body{
+background-color: white;
+padding-left: 7%;
+padding-right: 7%;
+margin-left: 2%;
+margin-right: 2%;
+margin-top: 1%;
+margin-bottom: 1%; 
+}
+
+h1{
+  color: white;
 }
 
 input[type=text], select {
