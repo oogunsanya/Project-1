@@ -313,10 +313,7 @@ input[name="birth"], select {
   margin-bottom: 38%; 
   background-image: linear-gradient(90deg, royalblue, Turquoise);  color: white;
 }
-.colo{
-  font :  3em "cursive", Garamond, 'Comic Sans MS';
-  font-size: 25px;
-}
+
 
 .col{
   font : 1em "cursive", Garamond, 'Comic Sans MS';
