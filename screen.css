@@ -243,3 +243,22 @@ padding-left: 33%;
 margin-bottom: 5%;
 
 }
+
+.colo{
+  font :  3em "cursive", Garamond, 'Comic Sans MS';
+  font-size: 40px;
+}
+
+.col{
+  font : 1em "cursive", Garamond, 'Comic Sans MS';
+  font-size: 23px;
+}
+
+.wer{
+  font : 1em "cursive", Garamond, 'Comic Sans MS';
+  font-size: 23px;
+}
+
+div{
+  padding-bottom: 10px;
+  }
