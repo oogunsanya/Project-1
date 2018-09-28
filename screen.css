@@ -235,22 +235,21 @@ img:hover {
 
 
 .stat{
-padding-left: 22%;
-margin-top: 5%;
-margin-bottom: 5%;
+float: right;
+margin-top: .5%;
+margin-bottom: .5%;
 }
 
 .star{
-padding-left: 22%;
-margin-top: 5%;
-margin-bottom: 5%;
-
+float: right;
+margin-top: .5%;
+margin-bottom: .5%;
 }
 
 .sta{
-padding-left: 48%;
-margin-bottom: 5%;
-margin-top: 5%;
+float: right;
+margin-bottom: .5%;
+margin-top: 1%;
 }
 
 
@@ -310,13 +309,12 @@ input[type=tel], select {
 }
 
 input[type=submit], select{
-   border: 2px solid black;
-   background-color: transparent;
+   background-color: green;
    padding-left: 2%;
    padding-right: 2%;
    padding-bottom: 1%;
    padding-top: 1%;
-   border-radius: 9%;
+   border-radius: 19%;
    color: black;
    margin-top: 1% 
 }
@@ -329,22 +327,47 @@ input[name="birth"], select {
 
 @media screen and (max-width: 960px) {
   body{
-  padding-left: 7%;
-  border: 3px solid white;
-  padding-right: 7%;
-  margin-left: 6%;
-  margin-right: 6%;
-  text-align: left;
-  border-radius: 9px;
-  margin-top: 38%;
-  margin-bottom: 38%; 
-  background-image: linear-gradient(90deg, royalblue, Turquoise);  color: white;
+  background-color: white;
+  margin-top: 1%;
+  margin-bottom: 1%; 
 }
 
+.write{
+  font-family: 'Mali', cursive;
+  font-size: 10px;
+  margin-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 1%; 
+  width: 80%;
+  line-height: 1.6;
+}
+
+img{
+height: 60px;
+width: 70px;
+margin-top: 5%;
+}
+
+h1{
+  float: right;
+  padding-right: 3%;
+  padding-top: 9%;
+  font-size: 15px;
+  font-family: 'roboto', arial;
+}
+
+h2{
+  float: left;
+  margin-top: 5%;
+  padding-left: 7%;
+  font-size: 15px;
+  font-family: 'roboto', arial;
+}
 
 .col{
   font : 1em "cursive", Garamond, 'Comic Sans MS';
-  font-size: 10px;
+  font-size: 70px;
 }
 
 .wer{
@@ -367,13 +390,13 @@ input[type=tel], select {
 }
 
 input[type=submit], select {
-   border: 1px solid white;
-   background-color: transparent;
+   background-color: green;
    padding-left: 1%;
    padding-right: 1%;
-   border-radius: 7%;
+   border-radius: 19%;
    color: white;
    margin-top: 1% 
+
 
 }
 
