@@ -217,7 +217,18 @@ textarea {
 
 h1{
   float: right;
+  padding-right: 3%;
+  padding-top: 1%;
+  font-family: 'roboto', arial;
 }
+
+h2{
+  float: right;
+  padding-right: 3%;
+  padding-top: 1%;
+  font-family: 'roboto', arial;
+}
+
 img:hover {
     box-shadow: 0 0 2px 1px red;
 }
@@ -260,6 +271,11 @@ div{
 
 body{
 background-color: white;
+margin-top: 1%;
+margin-bottom: 1%; 
+}
+
+fieldset{
 padding-left: 7%;
 padding-right: 7%;
 margin-left: 2%;
@@ -270,6 +286,18 @@ margin-bottom: 1%;
 
 h1{
   color: white;
+}
+
+.write{
+font-family: 'Mali', cursive;
+font-size: 25px;
+float: left;
+margin-top: 5%;
+padding-left: 7%;
+margin-left: 2%;
+margin-bottom: 1%; 
+width: 35%;
+line-height: 1.6;
 }
 
 input[type=text], select {
