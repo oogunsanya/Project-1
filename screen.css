@@ -220,6 +220,8 @@ h1{
   padding-right: 3%;
   padding-top: 1%;
   font-family: 'roboto', arial;
+  font-size: 1em; /*16px*/
+
 }
 
 h2{
@@ -227,6 +229,8 @@ h2{
   padding-right: 3%;
   padding-top: 1%;
   font-family: 'roboto', arial;
+  font-size: 1em; /*16px*/
+
 }
 
 img:hover {
@@ -281,6 +285,8 @@ margin-left: 2%;
 margin-right: 2%;
 margin-top: 1%;
 margin-bottom: 1%; 
+font-size: 1.5em; /*24px*/
+
 }
 
 h1{
@@ -297,6 +303,8 @@ margin-left: 2%;
 margin-bottom: 1%; 
 width: 35%;
 line-height: 1.6;
+font-size: 1.5em; /*24px*/
+
 }
 
 input[type=text], select {
