@@ -208,6 +208,8 @@ textarea {
   font: inherit; /* 2 */
 }
 
+
+
 .start {
   font :  3em "cursive", Garamond, 'Comic Sans MS';
   font-size: 55px;
@@ -221,7 +223,6 @@ h1{
   padding-top: 1%;
   font-family: 'roboto', arial;
   font-size: 1em; /*16px*/
-
 }
 
 h2{
@@ -232,6 +233,7 @@ h2{
   font-size: 1em; /*16px*/
 
 }
+
 img:hover {
     box-shadow: 0 0 2px 1px red;
 }
@@ -337,12 +339,17 @@ width: 200px;
 margin-top: 5%;
 }
 
-@media screen and (max-width: 960px) {
+div.logo{
+  height: 150px;
+}
+
+@media screen and (max-width: 940px) {
   body{
   background-color: white;
   margin-top: 1%;
   margin-bottom: 1%; 
 }
+
 
 .write{
   font-family: 'Mali', cursive;
@@ -375,6 +382,10 @@ h2{
   padding-left: 7%;
   font-size: 15px;
   font-family: 'roboto', arial;
+}
+.colo{
+  font :  3em "cursive", Garamond, 'Comic Sans MS';
+  font-size: 25px;
 }
 
 .col{
@@ -409,7 +420,6 @@ input[type=submit], select {
    color: white;
    margin-top: 1% 
 
-
 }
 
 input[name="birth"], select {
@@ -419,3 +429,4 @@ input[name="birth"], select {
 }
 
 }
+
