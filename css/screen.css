@@ -4,14 +4,14 @@
   background-color: #DD1919;
   width: auto;
 }
-h1{
+h1 {
   float: right;
   padding-right: 3%;
   padding-top: 1%;
   font-family: 'roboto', arial;
   font-size: 1em; /*16px*/
 }
-h2{
+h2 {
   float: right;
   padding-right: 3%;
   padding-top: 1%;
@@ -19,52 +19,52 @@ h2{
   font-size: 1em; /*16px*/
 }
 img:hover {
-    box-shadow: 0 0 2px 1px red;
+  box-shadow: 0 0 2px 1px red;
 }
-.stat{
-float: right;
-margin-top: .5%;
-margin-bottom: .5%;
+.stat {
+  float: right;
+  margin-top: .5%;
+  margin-bottom: .5%;
 }
-.star{
-float: right;
-margin-top: .5%;
-margin-bottom: .5%;
+.star {
+  float: right;
+  margin-top: .5%;
+  margin-bottom: .5%;
 }
-.sta{
-float: right;
-margin-bottom: .5%;
-margin-top: 1%;
+.sta {
+  float: right;
+  margin-bottom: .5%;
+  margin-top: 1%;
 }
-.col{
+.col {
   font : 1em "cursive", Garamond, 'Comic Sans MS';
   font-size: 23px;
 }
-.wer{
+.wer {
   font : 1em "cursive", Garamond, 'Comic Sans MS';
   font-size: 23px;
 }
-div{
+div {
   padding-bottom: 10px;
-  }
-  body{
+}
+body {
   background-color: white;
   margin-top: 1%;
   margin-bottom: 1%; 
 }
-fieldset{
-padding-left: 7%;
-padding-right: 7%;
-margin-left: 2%;
-margin-right: 2%;
-margin-top: 1%;
-margin-bottom: 1%; 
-font-size: 1.5em; /*24px*/
+fieldset {
+  padding-left: 7%;
+  padding-right: 7%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%; 
+  font-size: 1.5em; /*24px*/
 }
-h1{
+h1 {
   color: white;
 }
-.write{
+.write {
   font-family: 'Mali', cursive;
   font-size: 25px;
   float: left;
@@ -84,14 +84,14 @@ input[type=tel], select {
   border-radius: 9px;
 }
 input[type=submit], select{
-   background-color: green;
-   padding-left: 2%;
-   padding-right: 2%;
-   padding-bottom: 1%;
-   padding-top: 1%;
-   border-radius: 19%;
-   color: white;
-   margin-top: 1% 
+  background-color: green;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  border-radius: 19%;
+  color: white;
+  margin-top: 1% 
 }
 input[name="birth"], select {
   width: 200px;
@@ -99,74 +99,74 @@ input[name="birth"], select {
   border-radius: 9px;
 }
 img{
-height: 250px;
-width: 200px;
-margin-top: 5%;
+  height: 220px;
+  width: 190px;
+  margin-top: 5%;
 }
 @media screen and (max-width: 960px) {
   body{
-  background-color: white;
-  margin-top: 1%;
-  margin-bottom: 1%; 
-}
-.write{
-  font-family: 'Mali', cursive;
-  font-size: 10px;
-  margin-top: 2%;
-  padding-left: 5%;
-  padding-right: 5%;
-  margin-bottom: 1%; 
-  width: 80%;
-  line-height: 1.6;
-}
-img{
-height: 60px;
-width: 70px;
-margin-top: 5%;
-}
-h1{
-  float: right;
-  padding-right: 3%;
-  padding-top: 9%;
-  font-size: 15px;
-  font-family: 'roboto', arial;
-}
-h2{
-  float: left;
-  margin-top: 5%;
-  padding-left: 7%;
-  font-size: 15px;
-  font-family: 'roboto', arial;
-}
-.col{
-  font : 1em "cursive", Garamond, 'Comic Sans MS';
-  font-size: 70px;
-}
-.wer{
-  font : 1em "cursive", Garamond, 'Comic Sans MS';
-  font-size: 10px;
-}
-div{
-  padding-bottom: 8px;
+    background-color: white;
+    margin-top: 1%;
+    margin-bottom: 1%; 
   }
-input[type=text], select {
-  border-radius: 9px;
-}
-input[type=tel], select {
-  width: 40px;
-  border-radius: 5px;
-}
-input[type=submit], select {
-   background-color: green;
-   padding-left: 1%;
-   padding-right: 1%;
-   border-radius: 19%;
-   color: white;
-   margin-top: 1% 
-}
-input[name="birth"], select {
-  width: 90px;
-  height: 10px;
-  border-radius: 9px;
-}
+  .write{
+    font-family: 'Mali', cursive;
+    font-size: 10px;
+    margin-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 1%; 
+    width: 80%;
+    line-height: 1.6;
+  }
+  img{
+    height: 60px;
+    width: 70px;
+    margin-top: 5%;
+  }
+  h1{
+    float: right;
+    padding-right: 3%;
+    padding-top: 9%;
+    font-size: 15px;
+    font-family: 'roboto', arial;
+  }
+  h2{
+    float: left;
+    margin-top: 5%;
+    padding-left: 7%;
+    font-size: 15px;
+    font-family: 'roboto', arial;
+  }
+  .col{
+    font : 1em "cursive", Garamond, 'Comic Sans MS';
+    font-size: 70px;
+  }
+  .wer{
+    font : 1em "cursive", Garamond, 'Comic Sans MS';
+    font-size: 10px;
+  }
+  div{
+    padding-bottom: 8px;
+  }
+  input[type=text], select {
+    border-radius: 9px;
+  }
+  input[type=tel], select {
+    width: 40px;
+    border-radius: 5px;
+  }
+  input[type=submit], select {
+    background-color: green;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 19%;
+    color: white;
+    margin-top: 1% 
+  } 
+  input[name="birth"], select {
+    width: 90px;
+    height: 10px;
+    border-radius: 9px;
+  }
 }
