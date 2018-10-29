@@ -36,11 +36,6 @@ img:hover {
   margin-bottom: .5%;
   padding-top: 5%;
 }
-img{
-  height: 220px;
-  width: 180px;
-  margin-top: 1%;
-}
 .col {
   font : 1em "cursive", Garamond, 'Comic Sans MS';
   font-size: 23px;
@@ -81,6 +76,11 @@ h1 {
   width: 35%;
   line-height: 1.6em;
   font-size: 1.5em; /*24px modular scle for line height*/
+}
+img{
+  height: 220px;
+  width: 180px;
+  margin-top: 1%;
 }
 input[type=text], select {
   border-radius: 9px;
