@@ -9,14 +9,14 @@ h1 {
   padding-right: 3%;
   padding-top: 1%;
   font-family: 'roboto', arial;
-  font-size: 1em; /*16px*/
+  font-size: 1em; /*16px modular scale for line height*/
 }
 h2 {
   float: right;
   padding-right: 3%;
   padding-top: 1%;
   font-family: 'roboto', arial;
-  font-size: 1em; /*16px*/
+  font-size: 1em; /*16px modular scale for line height*/
 }
 img:hover {
   box-shadow: 0 0 2px 1px red;
@@ -24,7 +24,7 @@ img:hover {
 img{
   height: 220px;
   width: 180px;
-  margin-top: 3%;
+  margin-top: 1%;
 }
 .stat {
   float: right;
@@ -65,7 +65,7 @@ fieldset {
   margin-top: 1%;
   border:0px;
   margin-bottom: 1%; 
-  font-size: 1.5em; /*24px*/
+  font-size: 1.5em; /*24px modular scale for line height*/
 }
 h1 {
   color: white;
@@ -80,7 +80,7 @@ h1 {
   margin-bottom: 1%; 
   width: 35%;
   line-height: 1.6em;
-  font-size: 1.5em; /*24px*/
+  font-size: 1.5em; /*24px modular scle for line height*/
 }
 input[type=text], select {
   border-radius: 9px;
@@ -137,6 +137,72 @@ h2{
   margin-top: 5%;
   padding-left: 7%;
   font-size: 15px;
+  font-family: 'roboto', arial;
+}
+.col{
+  font : 1em "cursive", Garamond, 'Comic Sans MS';
+  font-size: 70px;
+}
+.wer{
+  font : 1em "cursive", Garamond, 'Comic Sans MS';
+  font-size: 10px;
+}
+div{
+  padding-bottom: 8px;
+}
+input[type=text], select {
+  border-radius: 9px;
+}
+input[type=tel], select {
+  width: 40px;
+  border-radius: 5px;
+}
+input[type=submit], select {
+  background-color: green;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-radius: 19%;
+  color: white;
+  margin-top: 1% 
+} 
+input[name="birth"], select {
+  width: 90px;
+  height: 10px;
+  border-radius: 9px;
+    }
+    @media screen and (max-width: 1048px) {
+body{
+  background-color: white;
+  margin-top: 1%;
+  margin-bottom: 1%; 
+}
+.write{
+  font-family: 'Mali', cursive;
+  font-size: 10px;
+  margin-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 1%; 
+  width: 80%;
+  line-height: 1.5;
+}
+img{
+  height: 100px;
+  width: 100px;
+  margin-top: 5%;
+}
+h1{
+  float: right;
+  padding-right: 3%;
+  padding-top: 9%;
+  font-size: 24px;
+  font-family: 'roboto', arial;
+}
+h2{
+  float: right;
+  margin-top: 5%;
+  padding-left: 7%;
+  font-size: 24px;
   font-family: 'roboto', arial;
 }
 .col{
