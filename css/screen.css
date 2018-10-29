@@ -26,21 +26,21 @@ img{
   width: 150px;
   margin-top: 1%;
 }
-.stat {
+.stat img {
   float: right;
   margin-top: .5%;
   margin-bottom: .5%;
   height: 220px;
   width: 190px;
 }
-.star {
+.star img {
   float: right;
   margin-top: .5%;
   margin-bottom: .5%;
   height: 220px;
   width: 190px;
 }
-.sta {
+.sta img {
   float: right;
   margin-bottom: .5%;
   height: 220px;
