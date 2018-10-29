@@ -45,6 +45,7 @@ img{
   margin-bottom: .5%;
   height: 220px;
   width: 190px;
+  padding-top: 5%;
 }
 .col {
   font : 1em "cursive", Garamond, 'Comic Sans MS';
@@ -109,7 +110,6 @@ input[name="birth"], select {
   height: 20px;
   border-radius: 9px;
 }
-
 @media screen and (max-width: 960px) {
   body{
     background-color: white;
