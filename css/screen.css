@@ -24,12 +24,11 @@ img:hover {
 .stat {
   float: right;
   margin-top: .5%;
-  margin-bottom: .5%;
 }
 .star {
   float: right;
-  margin-top: .5%;
   margin-bottom: .5%;
+  margin-left: 10%;
 }
 .sta {
   float: right;
